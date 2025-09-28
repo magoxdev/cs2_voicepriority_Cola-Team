@@ -1,6 +1,14 @@
+
 #pragma once
-#include "cbase.h"
-#include "igameevents.h"
+
+// Headers del SDK
+#include "../sdk/tier0/platform.h"      // 
+#include "../sdk/game/server/cbase.h"
+#include "../sdk/game/server/igameevents.h"
+
+// 
+#include "cs2fixes.h"   // 
+
 #include <unordered_map>
 #include <string>
 #include <chrono>

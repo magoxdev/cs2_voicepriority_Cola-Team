@@ -1,9 +1,6 @@
 #include "voice_priority.h"
-#include "gameeventmanager.h"
-#include "cs2fixes_flags.h"    
-#include "cs2fixes_roles.h"    
-#include "cs2fixes_playerlist.h" 
-#include "cs2fixes_admins.h"   
+
+ 
 
 CVoicePriority::CVoicePriority()
 {
