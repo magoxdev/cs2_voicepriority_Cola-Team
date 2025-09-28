@@ -18,6 +18,9 @@ void InitializePlugins()
     g_VoicePriority.Initialize();
 }
 
+
+
+
 In the voice hook too
 
 if (!g_VoicePriority.CanPlayerSpeak(playerSteamID))
