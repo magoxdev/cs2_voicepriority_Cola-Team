@@ -9,6 +9,7 @@ Include them in your project (.vcxproj or Makefile).
 Initialize the module:
 
 -----------------------------------------------------
+
 #include "voice_priority.h"
 CVoicePriority g_VoicePriority;
 
@@ -21,9 +22,10 @@ In the voice hook too
 
 if (!g_VoicePriority.CanPlayerSpeak(playerSteamID))
 {
-    // Bloquear voz
+    // 
     return;
 }
+
 -----------------------------------------------------
 
 ✅ With this, your final module is ready to compile and:
